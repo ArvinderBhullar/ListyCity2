@@ -74,7 +74,11 @@ public class CItyList {
     }
 
     public boolean hasCity2(City city){
-        
+        if (cities.contains((city))){
+            return true;
+        } else {
+            return false;
+        }
     }
 
 }

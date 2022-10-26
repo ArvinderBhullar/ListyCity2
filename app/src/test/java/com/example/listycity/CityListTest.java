@@ -86,4 +86,12 @@ public class CityListTest {
                 cityList.countCities());
     }
 
+    @Test
+    void testHasCity2() {
+        CItyList cList = mockCityList();
+        City city = new City("Test", "Ro");
+        cList.add(city);
+        assertTrue(cList.hasCity2(new City("Test", "Ro")));
+    }
+
 }
