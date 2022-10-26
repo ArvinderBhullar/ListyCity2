@@ -88,7 +88,7 @@ public class CItyList {
     }
 
     public int countCities2(){
-
+        return cities.size();
     }
 
 
