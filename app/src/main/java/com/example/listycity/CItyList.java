@@ -81,4 +81,8 @@ public class CItyList {
         }
     }
 
+    public void deleteCity2(City city){
+
+    }
+
 }

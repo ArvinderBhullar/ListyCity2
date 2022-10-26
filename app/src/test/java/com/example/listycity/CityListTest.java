@@ -94,4 +94,13 @@ public class CityListTest {
         assertTrue(cList.hasCity2(new City("Test", "Ro")));
     }
 
+    @Test
+    void testDeleteCity2(){
+        CItyList cList = mockCityList();
+        City city = new City("Test", "Ro");
+        cList.add(city);
+        cList.deleteCity2(city);
+        assertFalse(cList.hasCity(city));
+    }
+
 }
