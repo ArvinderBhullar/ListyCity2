@@ -73,4 +73,8 @@ public class CItyList {
         return cities.size();
     }
 
+    public boolean hasCity2(City city){
+        
+    }
+
 }
