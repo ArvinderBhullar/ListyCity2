@@ -82,7 +82,11 @@ public class CItyList {
     }
 
     public void deleteCity2(City city){
-
+        if (cities.contains(city)) {
+            cities.remove(new City(city.getCityName(), city.getProvinceName()));
+        }
     }
+
+    
 
 }
