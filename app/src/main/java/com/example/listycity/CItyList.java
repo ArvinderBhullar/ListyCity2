@@ -87,6 +87,10 @@ public class CItyList {
         }
     }
 
-    
+    public int countCities2(){
+
+    }
+
+
 
 }

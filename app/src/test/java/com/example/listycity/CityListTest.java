@@ -103,4 +103,11 @@ public class CityListTest {
         assertFalse(cList.hasCity(city));
     }
 
+    @Test
+    void testCountCities2(){
+        CItyList cList = mockCityList();
+        City city = new City("Test", "Ro");
+        assertEquals(1, cList.countCities2());
+    }
+
 }
